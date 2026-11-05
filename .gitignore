@@ -1,0 +1,26 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Python and tools
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+# Generated data and experiments (keep folder markers)
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+/outputs/**
+!/outputs/**/
+!/outputs/**/.gitkeep
+/logs/**
+!/logs/.gitkeep
+*.pt
+*.pth
+*.ckpt
