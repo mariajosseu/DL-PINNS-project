@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 LENGTH = 1.0
 FINAL_TIME = 1.0
 DIFFUSIVITY = 0.1
-POSITIONS = (0.1, 0.3, 0.5, 0.7, 0.9)
+POSITIONS = (0.1*LENGTH, 0.25*LENGTH, 0.5*LENGTH, 0.65*LENGTH, 0.85*LENGTH)
 
 
 def temperature(x, t):
